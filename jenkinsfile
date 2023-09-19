@@ -6,7 +6,7 @@ pipeline{
                 echo "Hello World"
                  }
         }
-        stage("echo multiple line){
+        stage("echo multiple line"){
             steps {
                 echo 'Hii I aM Ashwini Koli..'
                 echo 'WelCome In Jenkins Pipeline'
