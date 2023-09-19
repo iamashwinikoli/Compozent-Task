@@ -6,18 +6,10 @@ pipeline{
                 echo "Hello World"
                  }
         }
-        stage("run a command"){
+        stage("echo multiple line){
             steps {
-                sh 'pwd'
-            }
-        }
-        stage("run multiple command"){
-            steps {
-                sh '''pwd
-                date
-                ls
-                cat'''
-
+                echo 'Hii I aM Ashwini Koli..'
+                echo 'WelCome In Jenkins Pipeline'
             }
         }
     } 
